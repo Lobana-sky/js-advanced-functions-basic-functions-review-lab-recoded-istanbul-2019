@@ -16,7 +16,7 @@ mondayWork();
 
 
 function wrapAdjective(){
-  return function(pass=){
+  return function(pass="special"){
     
   }
 }
