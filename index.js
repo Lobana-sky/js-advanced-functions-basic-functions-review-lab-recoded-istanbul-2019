@@ -41,6 +41,6 @@ wrapAdjective("%")("a dedicated programmer") //=> "You are %a dedicated programm
  function actionApplyer(start,array){
    if(!array.length)
   return array[2](array[1](array[0](start)));
-   return start;
+  return start;
  }
  actionApplyer(3);
