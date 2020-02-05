@@ -30,5 +30,5 @@ wrapAdjective("%")("a dedicated programmer") //=> "You are %a dedicated programm
    add(num1,num2){return num1+num2;}
    
  }
- Calculator(1,3);
+ Calculator.add(1,3);
  
