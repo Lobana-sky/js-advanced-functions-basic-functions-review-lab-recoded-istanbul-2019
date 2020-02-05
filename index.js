@@ -36,5 +36,5 @@ wrapAdjective("%")("a dedicated programmer") //=> "You are %a dedicated programm
  Calculator.add(1,3);
  Calculator.subtract(1,3);
  Calculator.multiply(1,3);
- Calculator.divide(1,3);
+ Calculator.divide(10,5);
  
