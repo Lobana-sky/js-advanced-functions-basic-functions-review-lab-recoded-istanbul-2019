@@ -27,8 +27,14 @@ wrapAdjective("%")("a dedicated programmer") //=> "You are %a dedicated programm
 //----------------------
 
  let Calculator={
-   add(num1,num2){return num1+num2;}
+   add(num1,num2){return num1+num2;},
+   subtract(num1,num2){return num1-num2;},
+   multiply(num1,num2){return num1*num2;},
+   divide(num1,num2){return num1/num2;}
    
  }
  Calculator.add(1,3);
+ Calculator.subtract(1,3);
+ Calculator.multiply(1,3);
+ Calculator.divide(1,3);
  
