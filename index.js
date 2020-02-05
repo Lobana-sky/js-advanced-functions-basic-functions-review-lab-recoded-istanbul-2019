@@ -38,7 +38,7 @@ wrapAdjective("%")("a dedicated programmer") //=> "You are %a dedicated programm
  Calculator.multiply(1,3);
  Calculator.divide(10,5);
  
- actionApplyer(start,array){
-   
+ function actionApplyer(start,array){
+   return start
  }
  
