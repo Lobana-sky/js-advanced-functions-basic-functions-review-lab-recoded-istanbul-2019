@@ -15,7 +15,7 @@ mondayWork();
 //----------
 
 
-function wrapAdjective(){
+function wrapAdjective(str="*"){
   return function(pass="special"){
     return `You are ${pass}`
   }
