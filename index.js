@@ -26,8 +26,7 @@ wrapAdjective("%")("a dedicated programmer") //=> "You are %a dedicated programm
 
 //----------------------
 
- let Calculator=function(){
-   function add(num1,num2){
+ let Calculator={function add(num1,num2){
      return num1+num2;
    }
    
