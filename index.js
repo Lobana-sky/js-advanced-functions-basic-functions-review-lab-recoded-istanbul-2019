@@ -20,3 +20,5 @@ function wrapAdjective(str="*"){
     return `You are ${pass}`
   }
 }
+
+let encouragingPromptFunction = wrapAdjective("!!!");
