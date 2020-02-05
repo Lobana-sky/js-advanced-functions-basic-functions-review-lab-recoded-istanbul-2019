@@ -39,12 +39,12 @@ wrapAdjective("%")("a dedicated programmer") //=> "You are %a dedicated programm
  Calculator.divide(10,5);
  
  function actionApplyer(start,array){
-   if(!array.length){
-  return array[2](array[1](array[0](start)))}
-  else {
-  return start;}
+   if(!array.length)
+return start;
+  return array[2](array[1](array[0](start)))
+  
  }
- actionApplyer(3);
+ actionApplyer(3,[]);
   arrayOfTransforms = [
           function(a){ return a * 2 },
           function(a){ return a + 1000},
