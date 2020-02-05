@@ -23,3 +23,7 @@ function wrapAdjective(str="*"){
 
 let encouragingPromptFunction = wrapAdjective("!!!");
 wrapAdjective("%")("a dedicated programmer") //=> "You are %a dedicated programmer%!"
+
+//----------------------
+
+ let Calculator={};
