@@ -13,3 +13,8 @@ let mondayWork=function(pass="go to the office")
 }
 mondayWork();
 //----------
+
+
+function wrapAdjective(){
+  
+}
