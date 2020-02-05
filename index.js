@@ -32,5 +32,5 @@ wrapAdjective("%")("a dedicated programmer") //=> "You are %a dedicated programm
    }
    
  }
- Calculator(1,2);
+ Calculator(1,3);
  
