@@ -27,3 +27,4 @@ wrapAdjective("%")("a dedicated programmer") //=> "You are %a dedicated programm
 //----------------------
 
  let Calculator={};
+ 
