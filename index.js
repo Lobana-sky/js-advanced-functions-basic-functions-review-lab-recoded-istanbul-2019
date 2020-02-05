@@ -49,4 +49,4 @@ wrapAdjective("%")("a dedicated programmer") //=> "You are %a dedicated programm
           function(a){ return a + 1000},
           function(a){ return a % 7 }
         ]
-    actionApplyer(3,arrayOfTransforms);
+    actionApplyer(13,arrayOfTransforms);
